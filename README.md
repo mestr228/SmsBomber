@@ -10,3 +10,4 @@ pip install
 git clone https://github.com/mestr228/SmsBomberBy.git
 cd SmsBomber
 python start.py
+ 
