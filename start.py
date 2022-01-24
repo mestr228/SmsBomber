@@ -56,7 +56,7 @@ print(Fore.BLUE + ' [1]' + Fore.CYAN + ' Спам телефона')
 print(Fore.BLUE + ' [2]' + Fore.CYAN + ' Спам почты')
 print(Fore.BLUE + ' [3]' + Fore.CYAN + ' Поддерживаемые страны')
 if update == True:
-	print(Fore.YELLOW + ' [!]' + Fore.CYAN + ' Доступно обновление!')
+	print(Fore.YELLOW + ' [!]' + ' Доступно обновление!')
 
 try:
 	type = int(input(Fore.BLUE + '\n [Опция]: ' + Fore.CYAN))
