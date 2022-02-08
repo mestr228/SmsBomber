@@ -151,7 +151,7 @@ elif type == 3:
 	os.system('python start.py')
 elif type == 4:
 	os.system('clear')
-	os.system('git stash push')
+	os.system('git pull')
 	os.system('python start.py')
 else:
     incorrectOption()
