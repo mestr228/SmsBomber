@@ -151,6 +151,8 @@ elif type == 3:
 	os.system('python start.py')
 elif type == 4 and update:
 	os.system('clear')
+	os.system(Fore.BLUE + 'git stash')
+	os.system(Fore.BLUE + 'git merge')
 	os.system(Fore.BLUE + 'git pull')
 	print(Fore.CYAN + '\nОбновлено')
 	time.sleep(2)
