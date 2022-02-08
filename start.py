@@ -13,7 +13,7 @@ except ModuleNotFoundError:
 	os.system('clear')
 	os.system('python start.py')
 
-bomberVersion = 'version: 1.1'
+bomberVersion = 'version: 1.11'
 update = False
 a = requests.get('https://docs.google.com/document/d/1MDUjqHDL8AcGjdh0ArUW0qvsVCcP_SqXZhzIYwgoiFA/edit?usp=sharing')
 if a.text[a.text.find('version: '): a.text.find('"><meta name')] != bomberVersion:
