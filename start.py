@@ -151,8 +151,7 @@ elif type == 3:
 	os.system('python start.py')
 elif type == 4 and update:
 	os.system('clear')
-	os.system(Fore.BLUE + 'git stash clear')
-	os.system(Fore.BLUE + 'git pull https://github.com/mestr228/SmsBomber.git')
+	os.system(Fore.BLUE + 'git pull')
 	print(Fore.CYAN + '\nОбновлено')
 	time.sleep(2)
 	os.system('python start.py')
