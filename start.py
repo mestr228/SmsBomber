@@ -16,8 +16,8 @@ except ModuleNotFoundError:
 
 bomberVersion = 'version: 1.1'
 update = False
-a = requests.get('https://gosusulg.ru/smsbomber/version.html')
-if a.text[a.text.find('version: '): a.text.find('</a>')] != bomberVersion:
+a = requests.get('https://docs.google.com/document/d/1MDUjqHDL8AcGjdh0ArUW0qvsVCcP_SqXZhzIYwgoiFA/edit?usp=sharing')
+if a.text[a.text.find('version: '): a.text.find('"><meta name')] != bomberVersion:
 	update = True
 os.system('clear')
 q = ' ___  __  __  ___    ___              _'
