@@ -13,7 +13,7 @@ except ModuleNotFoundError:
 	os.system('clear')
 	os.system('python start.py')
 
-bomberVersion = 'version: 1.1'
+bomberVersion = 'version: 1.11'
 update = False
 a = requests.get('https://docs.google.com/document/d/1MDUjqHDL8AcGjdh0ArUW0qvsVCcP_SqXZhzIYwgoiFA/edit?usp=sharing')
 if a.text[a.text.find('version: '): a.text.find('"><meta name')] != bomberVersion:
@@ -151,8 +151,8 @@ elif type == 3:
 	os.system('python start.py')
 elif type == 4 and update:
 	os.system('clear')
-	os.system(Fore.BLUE + 'git stash')
-	os.system(Fore.BLUE + 'git pull')
+	os.system(Fore.BLUE + 'git stash clear')
+	os.system(Fore.BLUE + 'git pull https://github.com/mestr228/SmsBomber.git')
 	print(Fore.CYAN + '\nОбновлено')
 	time.sleep(2)
 	os.system('python start.py')
