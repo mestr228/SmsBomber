@@ -53,7 +53,7 @@ print(Fore.BLUE + ' [0]' + Fore.CYAN + ' Закрыть программу')
 print(Fore.BLUE + ' [1]' + Fore.CYAN + ' Спам телефона')
 print(Fore.BLUE + ' [2]' + Fore.CYAN + ' Спам почты')
 print(Fore.BLUE + ' [3]' + Fore.CYAN + ' Поддерживаемые страны')
-if update == True:
+if update:
 	print(Fore.YELLOW + ' [4]' + ' Обновить!')
 
 try:
@@ -149,7 +149,7 @@ elif type == 3:
 	input()
 	os.system('clear')
 	os.system('python start.py')
-elif type == 4:
+elif type == 4 and update:
 	os.system('clear')
 	os.system('git pull')
 	os.system('python start.py')
