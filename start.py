@@ -48,7 +48,6 @@ def incorrectEmail():
 #print(Fore.RED + 'hello' + Fore.BLACK + 'hello' + Fore.BLUE + 'hello' + Fore.CYAN + 'hello' + Fore.GREEN + 'hello' + Fore.MAGENTA + 'hello' + Fore.WHITE + 'hello' + Fore.YELLOW + 'hello')
 
 print(Fore.CYAN + q + '\n' + w + '\n' + e + '\n' + r + Fore.BLUE + '\n' + t + '\n' + y + '\n')
-
 print(Fore.BLUE + ' [+] ' + ' Выберите опцию ' + ' [+]\n')
 print(Fore.BLUE + ' [0]' + Fore.CYAN + ' Закрыть программу')
 print(Fore.BLUE + ' [1]' + Fore.CYAN + ' Спам телефона')
