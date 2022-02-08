@@ -54,7 +54,7 @@ print(Fore.BLUE + ' [1]' + Fore.CYAN + ' Спам телефона')
 print(Fore.BLUE + ' [2]' + Fore.CYAN + ' Спам почты')
 print(Fore.BLUE + ' [3]' + Fore.CYAN + ' Поддерживаемые страны')
 if update == True:
-	print(Fore.YELLOW + ' [!]' + ' Доступно обновление!')
+	print(Fore.YELLOW + ' [4]' + ' Обновить!')
 
 try:
 	type = int(input(Fore.BLUE + '\n [Опция]: ' + Fore.CYAN))
@@ -148,6 +148,10 @@ elif type == 3:
 	print(Fore.BLUE + ' [+]' + ' Нажмите Enter, чтобы выйти в меню' + ' [+]\n')
 	input()
 	os.system('clear')
+	os.system('python start.py')
+elif type == 4:
+	os.system('clear')
+	os.system('git stash push')
 	os.system('python start.py')
 else:
     incorrectOption()
